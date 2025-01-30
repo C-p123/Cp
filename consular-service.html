@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMA Emassay Websites</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- font asm  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <!-- owl slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- mini navbar -->
+ <div>
+        <img src="./assets/image/web-flag-strip-bg.jpg" alt="" width="100%" height="13px">
+    </div>
+
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="">
+                <div class="side-conntent">
+                    <a href="#">Sitemap</a>
+                    <a href="contact-details.html">Contact</a>
+                    <a href="#">Feedback</a>
+                    <a href="">Internet</a>
+                    <a href="">Media Login</a>
+
+                </div>
+            </div>
+
+            <div class="">
+                <div class="side-conntentt d-flex gap-3">
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Skip to main content</a></p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Screen Reader Access</a></p>
+                    <p class="m-0">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 ">
+                             <p class="m-0" onclick="changeTextSize('A-')">A-</p>
+                             <p class="m-0" onclick="changeTextSize('A')">A</p>
+                             <p class="m-0" onclick="changeTextSize('A+')">A+</p>
+                            <p class="m-0 white-cir"></p>
+                            <p class="m-0 black-cir"></p>
+                        </div>
+                    </div>
+                    </p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block">
+                        
+                    </p>
+                    <select name="lang" id="lang"
+                        class="border-0 bg-transparent px-4 d-none d-lg-block d-xl-block d-md-block">
+                        <option value="Eng">Eng</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="navbar-fixed">
+        <div class="container-fluid mt-2">
+            <div class="justify-content-between flex-wrap mt-1  dblock">
+                <div class=" d-none d-md-block d-lg-block d-xl-bloc">
+                    <div class="d-flex gap-3">
+                        <div>
+                            <img src="./assets/image/black-emblem.png" alt="">
+                        </div>
+                        <div class="mt-2">
+                            <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                                <br> <span class="h5">Beirut, Lebanon</span>
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="gap-2  mobile-logo">
+                    <div>
+                        <img src="./assets/image/black-emblem.png" alt="">
+                    </div>
+                    <div class="mt-2">
+                        <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                            <br> <span class="h5">Beirut, Lebanon</span>
+                        </h1>
+                        <div class="mb-3 d-flex justify-content-end">
+                            <a href="#whatnew" class="bg-orang d-block w-50"><i class="fa-solid fa-bell"></i>
+                                What's New</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex gap-4 flex-wrap">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 socail-media-icons mt-3 ">
+                            <a href="https://x.com/indiainlebanon" target="_blank" class="text-dark"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <!-- <i class="fa-brands fa-whatsapp text-success"></i> -->
+                            <a href="https://www.facebook.com/IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-facebook-f text-color"></i></a>
+                            <!-- <i class="fa-brands fa-linkedin-in"></i> -->
+                            <a href="https://www.youtube.com/@IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-youtube text-danger"></i></a>
+                            <!-- <i class="fa-brands fa-flickr"></i> -->
+                            <!-- <i class="fa-brands fa-soundcloud"></i> -->
+                            <a href="https://www.instagram.com/indiainlebanon/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-lg-block d-xl-block d-md-block mt-2">
+                        <form action="" class="border rounded">
+                            <input type="text" name="search" id="search" placeholder="Search" class="border-0 px-3 py-2"
+                                style="width: 180px;">
+                            <button class="btn color-orange"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="mt-2">
+                        <a href="#whatnew" class="bg-orang"><i class="fa-solid fa-bell"></i> What's New</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nabvbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Search..." class="w-50" />
+                        <span class="search">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        </span>
+
+                        <i class="fa-solid fa-x close-icon"></i>
+                    </div>
+
+                    <!-- <a href="#" class="bg-white p-3">RTI</a> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About the Embassy
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="contact-details.html">Contact Details</a></li>
+                                <!-- <li><a class="dropdown-item" href="about-mea.html">About MEA</a></li>
+                                <li><a class="dropdown-item" href="profiles.html">Profiles</a></li> -->
+                                <li><a class="dropdown-item" href="timings-and-holidays.html">Timings & Holidays</a></li>
+                                <!--<li><a class="dropdown-item" href="contact-details.html#Holidays">Holidays</a></li>-->
+                                <li><a class="dropdown-item" href="right-to-infomation.html">Right to Information</a>
+                                </li>
+                                <li><a class="dropdown-item" href="previous-ambassador.html">Previous Ambassadors</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="assets/pdf/Security Audit (VAPT) Clearance Certificate (CNPL24-25100524042).pdf"
+                                        target="_blank">Security Audit (VAPT) Clearance Certificate</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Visa & Consular services
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="visa-service.html">Visa Services</a></li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Passport Services
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small" href="passport-service.html">Passport
+                                                Services</a></li>
+                                        <li><a class="dropdown-item small" href="https://embassy.passportindia.gov.in/"
+                                                target="_blank">Application form for Indian Passport</a></li>
+                                        <li><a class="dropdown-item small" href="non-mrp.html">Phasing out of
+                                                Non-Machine Readable Passports (Non-MRP)</a></li>
+
+                                        <li><a href="pahwip.html" class="dropdown-item small">Public Advisory on Hand
+                                                Written Indian Passport</a></li>
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="consular-service.html">Consular Service</a></li>
+                                <li><a class="dropdown-item" href="oci-card.html">OCI Card Service</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                India & Lebanon
+                            </a>
+                            <ul class="dropdown-menu p-0">
+
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Bilateral Relations
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small"
+                                                href="india-lebanon-relation.html">India-Lebanon Bilateral Relations</a>
+                                        </li>
+                                        <li><a class="dropdown-item small"
+                                                href="scholarship-itec.html">Scholarships/ITEC</a></li>
+
+
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Links to India
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="https://www.indiaperspectives.gov.in//">India
+                                        Perspectives</a></li>
+                                <li><a class="dropdown-item" href="http://india.gov.in/">National Portal of India</a>
+                                </li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.mea.gov.in/">Ministry of
+                                        External Affairs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="archives.html">Archives</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <section>
+        <div class="bannerimg">
+            <h1 class="text-color fw-normal">Consular Services</h1>
+        </div>
+        <p class="px-3 m-0 py-2"><span class="text-color">Home ›</span> Visa & Consular services › <span class="text-color">Consular Services</span></p>
+        <hr class="mt-0">
+    </section>
+
+
+
+
+    <section>
+        <div class="container-fluid">
+            <h4 class="text-color">Consular Services</h4>
+
+            <p><strong>Timings:</strong> Applications are received between 09.00 AM and 11.30 AM and delivered between 3.30 PM and 04.30 PM during Mondays to Fridays. Normal processing time is one to three working days subject to compliance of all prescribed procedures.</p>
+
+            <p>
+                <strong>EMPLOYMENT OF INDIAN NATIONALS</strong> <br>
+                All prospective Foreign Employers (FE) would have to register themselves online by  visiting the website www.emigrate.gov.in .
+            </p>
+
+            <small class="d-block fw-bold text-color">This process could be done as per following</small>
+
+            <p>The FE should register online on the eMigrate system at <a href="www.emigrate.gov.in">www.emigrate.gov.in</a> by uploading the requisite documents such as:</p>
+
+            <ol>
+                <li><p>Request Letter for FE Registration on the organization's letter head duly signed by Authorized Signatory / Individual Employer.</p></li>
+                <li><p>Copy of Registration Certificate / Trade License.</p></li>
+                <li><p>Letter of Authorization in respect of Authorized Signatory on the organization letter head (Board Resolution in case of Company or Partnership)
+                </p></li>
+                <li><p>Copy of Passport/ ID issued by Lebanese Government in the name of Authorized Signatory.
+                </p></li>
+
+                <li><p>Copy of Specimen Signature of Authorized Signatory/ Individual Employer
+                </p></li>
+
+                <li><p>Copy of Address Proof.
+                </p></li>
+
+                <li><p>Copy of Local Government Approval for recruiting Indian workers.
+                </p></li>
+            </ol>
+
+            <p>For all original documents in Arabic, their English translation should be uploaded</p>
+
+            <p>For recruitment of female Indian workers, the FE should have a monthly income above US $ 10,000/-, the female worker should be above 30 years of age and the FE should also submit a Bank Guarantee paper for an amount of US $ 2500/-.</p>
+
+            <small class="text-color d-block">The Embassy will process the application and once approved, the Employer will receive an email with</small>
+
+            <small class="text-color d-block mt-2">Printable Acknowledgement Letter</small>
+
+            <small class="text-color d-block mt-2">Login credentials</small>
+            
+
+            <p>The approval will have a validity of 05 years and the FE should retain the copy for use in future for recruitment of Indian workers. FE will have a quota of 10 workers per year through the Embassy.  For bulk recruitment beyond the above quota, the FE could approach a GOI recognized Recruitment Agent (RA) located in India.</p>
+
+            <p class="fw-normal d-block mt-2">-- Employers are requested not to share their eMigrate login ID and password with recruiting agents or any other person under any circumstances to prevent unauthorized activity that may lead to deactivation of their registration. Employers are also advised to change their passwords periodically</p>
+
+            <p class="fw-normal d-block mt-2">-- Once the FE obtained the Work Visa from the DGS, the FE should get the Visa attested by the Embassy.For attestation the FE has to submit physical copies of Lebanese Government permit for recruiting Indian worker with English translation attested by Lebanese Foreign Ministry. The English translation of the Visa attested by Lebanese Foreign Ministry should be provided for obtaining attestation.The processing fee will be LBP 85,000/- w.e.f. 1st April 2021 (including ICWF component of LBP 4,000/-).</p>
+
+
+            <p class="fw-normal d-block mt-2">-- The Employer has to login into the system and go to Services -> Direct Recruitment under Indian Mission Attestation, fill the online form and upload visa copy attested by the Embassy along with other documents. After filling all information, the FE will get Job ID and Job Code on their registered email.</p>
+
+
+            <p class="fw-normal d-block mt-2">-- The FE has to also login into the system and generate individual employment contract by going to Services -> Generate Individual Employment Contract.</p>
+
+            <p class="fw-normal d-block mt-2">After the contract has been generated from the system, FE has to take printout of the contract, sign and stamp on each page and send the contract along with the Job Id and Job Code info and the Visa to the Indian worker for his/ her signature on the contract.</p>
+
+            <p>-- Indian worker is required to apply on www.emigrate.gov.in for Emigration Clearance (EC) using the link – “Apply for Emigration Clearance for ECR countries -> Employer Registered on eMigrate system”. Indian worker is to ensure that he/she has following info at the time of applying for EC – PBBY insurance policy, signed Employment Contract, worker`s passport size photo and the copy of his Passport. The documents would be required to be uploaded while applying for Emigration Clearance. The Indian worker has to make payment of Rs.200/- as Emigration Clearance fee.</p>
+
+            <p class="fw-bold">Attestation of documents
+            </p>
+
+            <p class="fw-bold">Commercial documents can only be processed for attestation/notarization by the Consular Section of the Embassy only after they have been attested by the Beirut /or other Lebanese Chamber of Commerce & Industry and the Ministry of Foreign Affairs and Emigrants, Government of Lebanon.
+            </p>
+
+            <h6 class="fw-bold text-color">Other services
+            </h6>
+
+            <p>Other consular services available include police clearance certificates for specific purposes, attestation of civil and legal documents, attestation of educational certificates of Indian students resident in Beirut, issue of birth certificates to children of Indian nationals borne in Beirut, etc. Details may be obtained from Consular officer.</p>
+
+            <p class="fw-bold">Fees for various Consular services w.e.f. 5th March 2024:</p>
+
+            <div class="row d-none">
+                <div class="col-xl-9">
+                    <div class="overflow">
+                <table class="table table-bordered table-striped">
+                    <tbody>
+                        <tr>
+                            <th>
+                            S.no.
+                            </th>
+                            <th>
+                            Types of Passport and Consular related Services
+                            </th>
+                            <th>
+                            Total fees
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>1</p>
+                            </td>
+                            <td>
+                            <p>Ordinary</p>
+                            </td>
+                            <td>
+                            <p>6,930,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>2</p>
+                            </td>
+                            <td>
+                            <p>Jumbo</p>
+                            </td>
+                            <td>
+                            <p>9,180,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>3</p>
+                            </td>
+                            <td>
+                            <p>New Passport- Minor</p>
+                            </td>
+                            <td>
+                            <p>4,680,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>4</p>
+                            </td>
+                            <td>
+                            <p>New Passport- Minor (Below 8 years &amp; First time) (with 10% Discount)</p>
+                            </td>
+                            <td>
+                            <p>4,230,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>5</p>
+                            </td>
+                            <td>
+                            <p>Replacement in lieu of lost, damaged or stolen passport</p>
+                            </td>
+                            <td>
+                            <p>13,680,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>6</p>
+                            </td>
+                            <td>
+                            <p>For Senior Citizen (above 60 years &amp; fresh applicant) (with 10% discount)</p>
+                            </td>
+                            <td>
+                            <p>6,255,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>7</p>
+                            </td>
+                            <td>
+                            <p>Emigration Check Not Required</p>
+                            </td>
+                            <td>
+                            <p>1,080,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>8</p>
+                            </td>
+                            <td>
+                            <p>Emergency Certificate</p>
+                            </td>
+                            <td>
+                            <p>1,530,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>9</p>
+                            </td>
+                            <td>
+                            <p>PCC</p>
+                            </td>
+                            <td>
+                            <p>2,430,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>10</p>
+                            </td>
+                            <td>
+                            <p>Attestation- Indian</p>
+                            </td>
+                            <td>
+                            <p>2,250,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>11</p>
+                            </td>
+                            <td>
+                            <p>Attestation-Foreigner</p>
+                            </td>
+                            <td>
+                            <p>4,950,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>13</p>
+                            </td>
+                            <td>
+                            <p>Death Certificate</p>
+                            </td>
+                            <td>
+                            <p>0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>14</p>
+                            </td>
+                            <td>
+                            <p>Birth Cerrtificate</p>
+                            </td>
+                            <td>
+                            <p>2,250,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>15</p>
+                            </td>
+                            <td>
+                            <p>Visa Attesttaion</p>
+                            </td>
+                            <td>
+                            <p>4,950,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>16</p>
+                            </td>
+                            <td>
+                            <p>PIO to OCI</p>
+                            </td>
+                            <td>
+                            <p>$100</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>17</p>
+                            </td>
+                            <td>
+                            <p>Surrender of Passport</p>
+                            </td>
+                            <td>
+                            <p>9,450,000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <p>18</p>
+                            </td>
+                            <td>
+                            <p>Marriage Certificate/</p>
+                
+                            <p>Solemnization of marriage</p>
+                            </td>
+                            <td>
+                            <p>4,680,000</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                </div>
+            </div>
+
+            <p class="fw-bold">Registration of Indian nationals</p>
+            <p>All Indian nationals are advised to register themselves with the Indian Embassy. This will facilitate better interaction with the Embassy and would also prove useful in rendering faster consular services.</p>
+
+            <p class="fw-bold">Emergency Services</p>
+            <p>In case of a genuine emergency, the Embassy can provide Consular services after office hours and during the weekend/holidays. The Embassy's 24x7 Emergency Numbers are: +961-76860128 and +961-70808681.</p>
+        </div>
+    </section>
+  
+
+  <section>
+        <div class="container-fluid py-3">
+            <div class="row stay-conmnected">
+                <h5 class="text-color">Stay Connected</h5>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="visa-passport-nri-oci-consular-alerts.html">
+                        <img src="./assets/image/visa_passport_nri_oci_consular_alerts.png" alt="" width="100%">
+                    </a>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <div data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./assets/image/queries_feedbak.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="#!">
+                        <img src="./assets/image/24-hours.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="study-in-india.html">
+                        <img src="./assets/image/study in india.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="Consular-grievance.html">
+                        <img src="./assets/image/Consular-grievance.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="scholorship.html">
+                        <img src="./assets/image/scholorship.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="commerical-reprentive.html">
+                        <img src="./assets/image/commerical-reprentive.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://indianvisaonline.gov.in/visa/" target="_blank">
+                        <img src="./assets/image/apply_online_for_visa_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.indiaperspectives.gov.in/en_US/" target="_blank">
+                        <img src="./assets/image/indian_perspectives_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSft8UHK_pZLt8XCGr3LQnHFjVw9WANIhurFpItfRcNmux6jjg/viewform" target="_blank">
+                        <img src="./assets/image/register_embassy.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/Minister.jpg" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/21.jpg" alt="" width="100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Queries/Feedback</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="">
+          <div class="mt-3">
+               <input type="text" id="name" name="name" placeholder="Enter Name" class="w-100 py-2 px-3 border rounded" required>
+          </div>
+          
+          <div class="mt-3">
+               <input type="number" id="number" name="number" placeholder="Enter Phone No." class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+               <input type="email" id="email" name="email" placeholder="Enter Email Id" class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+              <textarea id="w3review" name="w3review" rows="4" cols="5"  class="w-100 py-2 px-3 border rounded text-dark" placeholder="Message">
+              </textarea>
+          </div>
+          
+           <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+       </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+    </section>
+
+
+    <section>
+        <div id="news-slider" class="owl-carousel owl-carousell3 gap-2 mt-5">
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/pg-portal.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/prabhass-small-logo.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/my_gov.jpg" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/india-gov-logo.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/consular-grievance-monitering-system.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/iccr-logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="side-socail-icons">
+        <a href="https://www.facebook.com/IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/facebook-icon.png" alt="" width="30px"></i></a>
+        <a href="https://www.youtube.com/@IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/youtube-icon.png" alt="" width="30px"></a>
+        <!-- <a href="#" class="d-block" target="_blank"><img src="./assets/image/meamob-icon.png" alt="" width="30px"></a> -->
+        <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Etfw" class="d-block" target="_blank"><img src="./assets/image/x-twitter-icon.avif" alt="" width="30px"></a>
+        <a href="https://www.instagram.com/indiainlebanon/" class="d-block" target="_blank"><img src="./assets/image/insta-icon.webp" alt="" width="30px"></a>
+    </div>
+
+
+  <section>
+        <footer class="bg-navy p-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-9 mt-3">
+                        <!--<div class="d-flex gap-3 flex-wrap">-->
+                        <!--    <img src="./assets/image/android-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/ios-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/cqw_logo.png" alt="">-->
+                        <!--</div>-->
+                        <div class="afer-class mt-2">
+                            <a href="terms-and-conditions.html" class="m-0">Terms and Condition</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="copyright-policy.html">Copyright Policy</a>
+                            <a href="hyperlinking-policy.html">Hyperlinking Policy</a>
+                            <!--<a href="#">Accessibility Statement</a>-->
+                            <!--<a href="#">Help</a>-->
+                            <!--<a href="#">E-Citizen</a>-->
+                            <!--<a href="#">Tenders</a>-->
+                        </div>
+
+                        <small class="text-white d-block">Copyright © 2024 Embassy of India , Lebanon ,  Government of India. All Rights Reserved.</small>
+                        <small class="d-block text-white">Website Designed & developed by <a href="https://maxtratechnologies.com/" target="_blank" class="text-decoration-none text-white fw-bold">MAXTRA TECHNOLOGIES PVT.LTD</a></small>
+                    </div>
+
+                    <div class="col-xl-3 mt-3">
+                        <div id="google_translate_element" class="w-100 mb-3"></div>
+                        <p class="m-0 small text-end text-white">Visitors: 215862577 Page last updated on:</p>
+                        <p class="m-0 small text-end text-white">14/10/2024</p>
+                        <p class="m-0 small text-end text-white">Working hours at Embassy of India, Lebanon 8:30 A.M. To 5:00 P.M.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <!-- bootsrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousell3").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 4  // For small screens
+                    },
+                    600: {
+                        items: 4  // For medium screens
+                    },
+                    1000: {
+                        items: 8  // For large screens
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

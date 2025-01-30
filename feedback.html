@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMA Emassay Websites</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- font asm  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <!-- owl slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- mini navbar -->
+ <div>
+        <img src="./assets/image/web-flag-strip-bg.jpg" alt="" width="100%" height="13px">
+    </div>
+
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="">
+                <div class="side-conntent">
+                    <a href="#">Sitemap</a>
+                    <a href="contact-details.html">Contact</a>
+                    <a href="#">Feedback</a>
+                    <a href="">Internet</a>
+                    <a href="">Media Login</a>
+
+                </div>
+            </div>
+
+            <div class="">
+                <div class="side-conntentt d-flex gap-3">
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Skip to main content</a></p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Screen Reader Access</a></p>
+                    <p class="m-0">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 ">
+                             <p class="m-0" onclick="changeTextSize('A-')">A-</p>
+                             <p class="m-0" onclick="changeTextSize('A')">A</p>
+                             <p class="m-0" onclick="changeTextSize('A+')">A+</p>
+                            <p class="m-0 white-cir"></p>
+                            <p class="m-0 black-cir"></p>
+                        </div>
+                    </div>
+                    </p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block">
+                        
+                    </p>
+                    <select name="lang" id="lang"
+                        class="border-0 bg-transparent px-4 d-none d-lg-block d-xl-block d-md-block">
+                        <option value="Eng">Eng</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="navbar-fixed">
+        <div class="container-fluid mt-2">
+            <div class="justify-content-between flex-wrap mt-1  dblock">
+                <div class=" d-none d-md-block d-lg-block d-xl-bloc">
+                    <div class="d-flex gap-3">
+                        <div>
+                            <img src="./assets/image/black-emblem.png" alt="">
+                        </div>
+                        <div class="mt-2">
+                            <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                                <br> <span class="h5">Beirut, Lebanon</span>
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="gap-2  mobile-logo">
+                    <div>
+                        <img src="./assets/image/black-emblem.png" alt="">
+                    </div>
+                    <div class="mt-2">
+                        <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                            <br> <span class="h5">Beirut, Lebanon</span>
+                        </h1>
+                        <div class="mb-3 d-flex justify-content-end">
+                            <a href="#whatnew" class="bg-orang d-block w-50"><i class="fa-solid fa-bell"></i>
+                                What's New</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex gap-4 flex-wrap">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 socail-media-icons mt-3 ">
+                            <a href="https://x.com/indiainlebanon" target="_blank" class="text-dark"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <!-- <i class="fa-brands fa-whatsapp text-success"></i> -->
+                            <a href="https://www.facebook.com/IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-facebook-f text-color"></i></a>
+                            <!-- <i class="fa-brands fa-linkedin-in"></i> -->
+                            <a href="https://www.youtube.com/@IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-youtube text-danger"></i></a>
+                            <!-- <i class="fa-brands fa-flickr"></i> -->
+                            <!-- <i class="fa-brands fa-soundcloud"></i> -->
+                            <a href="https://www.instagram.com/indiainlebanon/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-lg-block d-xl-block d-md-block mt-2">
+                        <form action="" class="border rounded">
+                            <input type="text" name="search" id="search" placeholder="Search" class="border-0 px-3 py-2"
+                                style="width: 180px;">
+                            <button class="btn color-orange"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="mt-2">
+                        <a href="#whatnew" class="bg-orang"><i class="fa-solid fa-bell"></i> What's New</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nabvbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Search..." class="w-50" />
+                        <span class="search">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        </span>
+
+                        <i class="fa-solid fa-x close-icon"></i>
+                    </div>
+
+                    <!-- <a href="#" class="bg-white p-3">RTI</a> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About the Embassy
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="contact-details.html">Contact Details</a></li>
+                                <!-- <li><a class="dropdown-item" href="about-mea.html">About MEA</a></li>
+                                <li><a class="dropdown-item" href="profiles.html">Profiles</a></li> -->
+                                <li><a class="dropdown-item" href="timings-and-holidays.html">Timings & Holidays</a></li>
+                                <!--<li><a class="dropdown-item" href="contact-details.html#Holidays">Holidays</a></li>-->
+                                <li><a class="dropdown-item" href="right-to-infomation.html">Right to Information</a>
+                                </li>
+                                <li><a class="dropdown-item" href="previous-ambassador.html">Previous Ambassadors</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="assets/pdf/Security Audit (VAPT) Clearance Certificate (CNPL24-25100524042).pdf"
+                                        target="_blank">Security Audit (VAPT) Clearance Certificate</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Visa & Consular services
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="visa-service.html">Visa Services</a></li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Passport Services
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small" href="passport-service.html">Passport
+                                                Services</a></li>
+                                        <li><a class="dropdown-item small" href="https://embassy.passportindia.gov.in/"
+                                                target="_blank">Application form for Indian Passport</a></li>
+                                        <li><a class="dropdown-item small" href="non-mrp.html">Phasing out of
+                                                Non-Machine Readable Passports (Non-MRP)</a></li>
+
+                                        <li><a href="pahwip.html" class="dropdown-item small">Public Advisory on Hand
+                                                Written Indian Passport</a></li>
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="consular-service.html">Consular Service</a></li>
+                                <li><a class="dropdown-item" href="oci-card.html">OCI Card Service</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                India & Lebanon
+                            </a>
+                            <ul class="dropdown-menu p-0">
+
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Bilateral Relations
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small"
+                                                href="india-lebanon-relation.html">India-Lebanon Bilateral Relations</a>
+                                        </li>
+                                        <li><a class="dropdown-item small"
+                                                href="scholarship-itec.html">Scholarships/ITEC</a></li>
+
+
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Links to India
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="https://www.indiaperspectives.gov.in//">India
+                                        Perspectives</a></li>
+                                <li><a class="dropdown-item" href="http://india.gov.in/">National Portal of India</a>
+                                </li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.mea.gov.in/">Ministry of
+                                        External Affairs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="archives.html">Archives</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <section>
+        <div class="bannerimg">
+            <h1 class="text-color fw-normal">Feedback</h1>
+        </div>
+        <p class="px-3 m-0 py-2"><span class="text-color">Home ›</span> Feedback</p>
+        <hr class="mt-0">
+    </section>
+
+
+
+    <section>
+        <div class="container-fluid">
+           <p>Complete the below form to send us your comments and feedback on the website. Your opinion, suggestions and feedback will be very much appreciated. If you provide us with your contact information, we will be able to answer your questions.
+</p>
+
+<p>Fields marked with <sup class="text-danger">*</sup> are required.
+</p>
+
+<form class="row">
+    <div class="col-xl-4 mt-3">
+        <label class="name">First Name <sup>*</sup></label>
+        <input type="text" id="name" name="name" class="w-100 py-2 px-3 border rounded" placeholder="Enter First Name">
+    </div>
+    
+    <div class="col-xl-4 mt-3">
+        <label class="last_name">Last Name <sup>*</sup></label>
+        <input type="text" id="name" name="name" class="w-100 py-2 px-3 border rounded" placeholder="Enter Last Name">
+    </div>
+    
+    <div class="col-xl-4 mt-3">
+        <label class="email">Email <sup>*</sup></label>
+        <input type="email" id="name" name="name" class="w-100 py-2 px-3 border rounded" placeholder="Enter Email Id">
+    </div>
+    
+    <div class="col-xl-4 mt-3">
+        <label class="number">Mobile No. <sup>*</sup></label>
+        <input type="number" id="name" name="name" class="w-100 py-2 px-3 border rounded" placeholder="Enter Mobile No.">
+    </div>
+    
+     <div class="col-xl-4 mt-3">
+        <label class="subject">Subject <sup>*</sup></label>
+        <input type="text" id="name" name="name" class="w-100 py-2 px-3 border rounded" placeholder="Enter Subject">
+    </div>
+    
+    <div class="col-xl-4 mt-3">
+        <label class="country">Country <sup>*</sup></label>
+        <select name="ctl00$ContentPlaceHolder1$UserEnquiry1$drpCountry" id="ContentPlaceHolder1_UserEnquiry1_drpCountry" title="Country" class="w-100 py-2 px-3 border rounded">
+	<option value="">Select Country</option>
+	<option value="3">Afghanistan</option>
+	<option value="16">Aland Islands</option>
+	<option value="6">Albania</option>
+	<option value="61">Algeria</option>
+	<option value="12">American Samoa</option>
+	<option value="1">Andorra</option>
+	<option value="9">Angola</option>
+	<option value="5">Anguilla</option>
+	<option value="10">Antarctica</option>
+	<option value="4">Antigua and Barbuda</option>
+	<option value="11">Argentina</option>
+	<option value="7">Armenia</option>
+	<option value="15">Aruba</option>
+	<option value="14">Australia</option>
+	<option value="13">Austria</option>
+	<option value="17">Azerbaijan</option>
+	<option value="1792">Baden Wurttemberg</option>
+	<option value="31">Bahamas</option>
+	<option value="24">Bahrain</option>
+	<option value="20">Bangladesh</option>
+	<option value="19">Barbados</option>
+	<option value="1791">Bavaria</option>
+	<option value="35">Belarus</option>
+	<option value="21">Belgium</option>
+	<option value="36">Belize</option>
+	<option value="26">Benin</option>
+	<option value="27">Bermuda</option>
+	<option value="32">Bhutan</option>
+	<option value="29">Bolivia</option>
+	<option value="18">Bosnia-Herzegovina</option>
+	<option value="34">Botswana</option>
+	<option value="33">Bouvet Island</option>
+	<option value="30">Brazil</option>
+	<option value="103">British Indian Ocean Territory</option>
+	<option value="28">Brunei Darussalam</option>
+	<option value="23">Bulgaria</option>
+	<option value="22">Burkina Faso</option>
+	<option value="25">Burundi</option>
+	<option value="52">Cabo Verde</option>
+	<option value="113">Cambodia</option>
+	<option value="46">Cameroon</option>
+	<option value="37">Canada</option>
+	<option value="120">Cayman Islands</option>
+	<option value="40">Central African Republic</option>
+	<option value="206">Chad</option>
+	<option value="236">Channel Islands</option>
+	<option value="45">Chile</option>
+	<option value="47">China</option>
+	<option value="53">Christmas Island</option>
+	<option value="38">Cocos (Keeling) Islands</option>
+	<option value="48">Colombia</option>
+	<option value="115">Comoros</option>
+	<option value="39">Congo [Democratic Republic]</option>
+	<option value="41">Congo [Republic of]</option>
+	<option value="44">Cook Islands</option>
+	<option value="49">Costa Rica</option>
+	<option value="43">Cote d Ivoire [Ivory Coast]</option>
+	<option value="96">Croatia</option>
+	<option value="51">Cuba</option>
+	<option value="54">Cyprus</option>
+	<option value="55">Czech Republic</option>
+	<option value="58">Denmark</option>
+	<option value="57">Djibouti</option>
+	<option value="59">Dominica</option>
+	<option value="60">Dominican Republic</option>
+	<option value="62">Ecuador</option>
+	<option value="64">Egypt</option>
+	<option value="202">El Salvador</option>
+	<option value="86">Equatorial Guinea</option>
+	<option value="66">Eritrea</option>
+	<option value="63">Estonia</option>
+	<option value="68">Ethiopia</option>
+	<option value="71">Falkland Islands</option>
+	<option value="73">Faroe Islands</option>
+	<option value="70">Fiji</option>
+	<option value="69">Finland</option>
+	<option value="74">France</option>
+	<option value="79">French Guiana</option>
+	<option value="169">French Polynesia</option>
+	<option value="207">French Southern Territories</option>
+	<option value="75">Gabon</option>
+	<option value="83">Gambia</option>
+	<option value="78">Georgia</option>
+	<option value="56">Germany</option>
+	<option value="80">Ghana</option>
+	<option value="81">Gibraltar</option>
+	<option value="87">Greece</option>
+	<option value="82">Greenland</option>
+	<option value="77">Grenada</option>
+	<option value="85">Guadeloupe</option>
+	<option value="90">Guam</option>
+	<option value="89">Guatemala</option>
+	<option value="84">Guinea</option>
+	<option value="91">Guinea-Bissau</option>
+	<option value="92">Guyana</option>
+	<option value="97">Haiti</option>
+	<option value="94">Heard Is. and McDonald Islands</option>
+	<option value="227">Holy See (Vatican City State)</option>
+	<option value="95">Honduras</option>
+	<option value="93">Hong Kong</option>
+	<option value="98">Hungary</option>
+	<option value="106">Iceland</option>
+	<option value="102">India</option>
+	<option value="2048">India-ASEAN (Jakarta)</option>
+	<option value="99">Indonesia</option>
+	<option value="105">Iran</option>
+	<option value="104">Iraq</option>
+	<option value="100">Ireland</option>
+	<option value="101">Israel</option>
+	<option value="107">Italy</option>
+	<option value="108">Jamaica</option>
+	<option value="110">Japan</option>
+	<option value="109">Jordan</option>
+	<option value="121">Kazakhstan</option>
+	<option value="111">Kenya</option>
+	<option value="2047">Kingdom of Eswatini</option>
+	<option value="114">Kiribati</option>
+	<option value="504">Korea (DPR)</option>
+	<option value="118">Korea (ROK)</option>
+	<option value="117">Korea [Republic of]</option>
+	<option value="119">Kuwait</option>
+	<option value="112">Kyrgyzstan</option>
+	<option value="122">Laos</option>
+	<option value="131">Latvia</option>
+	<option value="123">Lebanon</option>
+	<option value="128">Lesotho</option>
+	<option value="127">Liberia</option>
+	<option value="132">Libya</option>
+	<option value="125">Liechtenstein</option>
+	<option value="129">Lithuania</option>
+	<option value="130">Luxembourg [Grand Dutchy of]</option>
+	<option value="142">Macao</option>
+	<option value="136">Madagascar</option>
+	<option value="150">Malawi</option>
+	<option value="152">Malaysia</option>
+	<option value="149">Maldives</option>
+	<option value="139">Mali</option>
+	<option value="147">Malta</option>
+	<option value="137">Marshall Islands</option>
+	<option value="144">Martinique</option>
+	<option value="145">Mauritania [Islamic Republic of]</option>
+	<option value="148">Mauritius</option>
+	<option value="239">Mayotte</option>
+	<option value="151">Mexico</option>
+	<option value="72">Micronesia [Federated States of]</option>
+	<option value="135">Moldova, Republic of</option>
+	<option value="134">Monaco</option>
+	<option value="141">Mongolia</option>
+	<option value="50">Montenegro</option>
+	<option value="146">Montserrat</option>
+	<option value="133">Morocco</option>
+	<option value="153">Mozambique</option>
+	<option value="140">Myanmar</option>
+	<option value="154">Namibia</option>
+	<option value="163">Nauru</option>
+	<option value="162">Nepal</option>
+	<option value="160">Netherlands</option>
+	<option value="8">Netherlands Antilles</option>
+	<option value="155">New Caledonia</option>
+	<option value="165">New Zealand</option>
+	<option value="159">Nicaragua</option>
+	<option value="156">Niger</option>
+	<option value="158">Nigeria</option>
+	<option value="164">Niue</option>
+	<option value="157">Norfolk Island</option>
+	<option value="138">North Macedonia</option>
+	<option value="143">Northern Mariana Islands</option>
+	<option value="161">Norway</option>
+	<option value="166">Oman</option>
+	<option value="172">Pakistan</option>
+	<option value="179">Palau</option>
+	<option value="177">Palestine</option>
+	<option value="167">Panama</option>
+	<option value="170">Papua New Guinea</option>
+	<option value="180">Paraguay</option>
+	<option value="168">Peru</option>
+	<option value="171">Philippines</option>
+	<option value="175">Pitcairn</option>
+	<option value="173">Poland</option>
+	<option value="178">Portugal</option>
+	<option value="176">Puerto Rico</option>
+	<option value="181">Qatar</option>
+	<option value="182">Reunion Island</option>
+	<option value="183">Romania</option>
+	<option value="184">Russia</option>
+	<option value="185">Rwanda</option>
+	<option value="192">Saint Helena</option>
+	<option value="116">Saint Kitts and Nevis</option>
+	<option value="124">Saint Lucia</option>
+	<option value="174">Saint Pierre and Miquelon</option>
+	<option value="228">Saint Vincent and Grenadines</option>
+	<option value="235">Samoa</option>
+	<option value="197">San Marino</option>
+	<option value="201">Sao Tome and Principe</option>
+	<option value="186">Saudi Arabia</option>
+	<option value="198">Senegal</option>
+	<option value="244">Serbia</option>
+	<option value="188">Seychelles</option>
+	<option value="196">Sierra Leone</option>
+	<option value="191">Singapore</option>
+	<option value="195">Slovak Republic</option>
+	<option value="193">Slovenia</option>
+	<option value="187">Solomon Islands</option>
+	<option value="199">Somalia</option>
+	<option value="240">South Africa</option>
+	<option value="88">South Georgia, Sandwich Isl.</option>
+	<option value="505">South Sudan</option>
+	<option value="67">Spain</option>
+	<option value="126">Sri Lanka</option>
+	<option value="189">Sudan</option>
+	<option value="200">Suriname</option>
+	<option value="194">Svalbard and Jan Mayen</option>
+	<option value="190">Sweden</option>
+	<option value="42">Switzerland</option>
+	<option value="203">Syria</option>
+	<option value="219">Taiwan</option>
+	<option value="210">Tajikistan</option>
+	<option value="220">Tanzania</option>
+	<option value="209">Thailand</option>
+	<option value="212">Timor-Leste</option>
+	<option value="208">Togo</option>
+	<option value="211">Tokelau</option>
+	<option value="215">Tonga Islands</option>
+	<option value="217">Trinidad and Tobago</option>
+	<option value="214">Tunisia</option>
+	<option value="216">Türkiye</option>
+	<option value="213">Turkmenistan</option>
+	<option value="205">Turks and Caicos Islands</option>
+	<option value="218">Tuvalu</option>
+	<option value="222">Uganda</option>
+	<option value="221">Ukraine</option>
+	<option value="2046">UNESCO-PDI(Paris)</option>
+	<option value="2">United Arab Emirates</option>
+	<option value="76">United Kingdom</option>
+	<option value="224">United States of America</option>
+	<option value="237">Unknown Country</option>
+	<option value="508">UN-PMI (CD)Geneva</option>
+	<option value="507">UN-PMI(Geneva)</option>
+	<option value="502">UN-PMI(New York)</option>
+	<option value="225">Uruguay</option>
+	<option value="223">US Minor Outlying Islands</option>
+	<option value="226">Uzbekistan</option>
+	<option value="233">Vanuatu</option>
+	<option value="229">Venezuela</option>
+	<option value="232">Vietnam</option>
+	<option value="230">Virgin Islands, British</option>
+	<option value="231">Virgin Islands, US</option>
+	<option value="234">Wallis &amp; Futuna Islands</option>
+	<option value="65">Western Sahara</option>
+	<option value="238">Yemen</option>
+	<option value="241">Zambia</option>
+	<option value="242">Zimbabwe</option>
+
+</select>
+    </div>
+    
+    
+    <div class="col-xl-6 mt-3">
+        <label class="adress">Adress <sup>*</sup></label>
+        <textarea class="w-100 py-2 px-3 border rounded" row="5" cols="5" placeholder="Enter Adress"></textarea>
+    </div>
+    
+    
+    <div class="col-xl-6 mt-3">
+        <label class="comment">Comments / Queries  <sup>*</sup></label>
+        <textarea class="w-100 py-2 px-3 border rounded" row="5" cols="5" placeholder="Enter Comments / Queries "></textarea>
+    </div>
+    
+    
+    <div class="col-xl-4 mt-3">
+        <label class="code">Verification Code <sup>*</sup></label>
+        <input type="text" id="name" name="name" class="w-100 py-2 px-3 border rounded" placeholder="Enter Verification Code">
+    </div>
+    
+    
+    <div class="col-xl-8 mt-4">
+       <p class="border rounded px-5 py-2 d-inline-block">h c t j n</p>
+    </div>
+    
+     <div class="col-xl-4 mt-4">
+      <button class="btn bg-primary px-5 py-2 text-white">Submit</button>
+    </div>
+    
+</form>
+
+
+        </div>
+    </section>
+    
+    <style>
+        .bg-navy{
+            background:navy;
+            color:white;
+        }
+        
+        sup{
+            color:red;
+        }
+    </style>
+   
+
+  <section>
+        <div class="container-fluid py-3">
+            <div class="row stay-conmnected">
+                <h5 class="text-color">Stay Connected</h5>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="visa-passport-nri-oci-consular-alerts.html">
+                        <img src="./assets/image/visa_passport_nri_oci_consular_alerts.png" alt="" width="100%">
+                    </a>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <div data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./assets/image/queries_feedbak.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="#!">
+                        <img src="./assets/image/24-hours.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="study-in-india.html">
+                        <img src="./assets/image/study in india.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="Consular-grievance.html">
+                        <img src="./assets/image/Consular-grievance.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="scholorship.html">
+                        <img src="./assets/image/scholorship.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="commerical-reprentive.html">
+                        <img src="./assets/image/commerical-reprentive.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://indianvisaonline.gov.in/visa/" target="_blank">
+                        <img src="./assets/image/apply_online_for_visa_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.indiaperspectives.gov.in/en_US/" target="_blank">
+                        <img src="./assets/image/indian_perspectives_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSft8UHK_pZLt8XCGr3LQnHFjVw9WANIhurFpItfRcNmux6jjg/viewform" target="_blank">
+                        <img src="./assets/image/register_embassy.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/Minister.jpg" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/21.jpg" alt="" width="100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Queries/Feedback</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="">
+          <div class="mt-3">
+               <input type="text" id="name" name="name" placeholder="Enter Name" class="w-100 py-2 px-3 border rounded" required>
+          </div>
+          
+          <div class="mt-3">
+               <input type="number" id="number" name="number" placeholder="Enter Phone No." class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+               <input type="email" id="email" name="email" placeholder="Enter Email Id" class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+              <textarea id="w3review" name="w3review" rows="4" cols="5"  class="w-100 py-2 px-3 border rounded text-dark" placeholder="Message">
+              </textarea>
+          </div>
+          
+           <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+       </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+    </section>
+
+
+    <section>
+        <div id="news-slider" class="owl-carousel owl-carousell3 gap-2 mt-5">
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/pg-portal.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/prabhass-small-logo.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/my_gov.jpg" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/india-gov-logo.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/consular-grievance-monitering-system.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/iccr-logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="side-socail-icons">
+        <a href="https://www.facebook.com/IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/facebook-icon.png" alt="" width="30px"></i></a>
+        <a href="https://www.youtube.com/@IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/youtube-icon.png" alt="" width="30px"></a>
+        <!-- <a href="#" class="d-block" target="_blank"><img src="./assets/image/meamob-icon.png" alt="" width="30px"></a> -->
+        <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Etfw" class="d-block" target="_blank"><img src="./assets/image/x-twitter-icon.avif" alt="" width="30px"></a>
+        <a href="https://www.instagram.com/indiainlebanon/" class="d-block" target="_blank"><img src="./assets/image/insta-icon.webp" alt="" width="30px"></a>
+    </div>
+
+
+     <section>
+        <footer class="bg-navy p-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-9 mt-3">
+                        <!--<div class="d-flex gap-3 flex-wrap">-->
+                        <!--    <img src="./assets/image/android-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/ios-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/cqw_logo.png" alt="">-->
+                        <!--</div>-->
+                        <div class="afer-class mt-2">
+                            <a href="terms-and-conditions.html" class="m-0">Terms and Condition</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="copyright-policy.html">Copyright Policy</a>
+                            <a href="hyperlinking-policy.html">Hyperlinking Policy</a>
+                            <!--<a href="#">Accessibility Statement</a>-->
+                            <!--<a href="#">Help</a>-->
+                            <!--<a href="#">E-Citizen</a>-->
+                            <!--<a href="#">Tenders</a>-->
+                        </div>
+
+                        <small class="text-white d-block">Copyright © 2024 Embassy of India , Lebanon ,  Government of India. All Rights Reserved.</small>
+                        <small class="d-block text-white">Website Designed & developed by <a href="https://maxtratechnologies.com/" target="_blank" class="text-decoration-none text-white fw-bold">MAXTRA TECHNOLOGIES PVT.LTD</a></small>
+                    </div>
+
+                    <div class="col-xl-3 mt-3">
+                        <div id="google_translate_element" class="w-100 mb-3"></div>
+                        <p class="m-0 small text-end text-white">Visitors: 215862577 Page last updated on:</p>
+                        <p class="m-0 small text-end text-white">14/10/2024</p>
+                        <p class="m-0 small text-end text-white">Working hours at Embassy of India, Lebanon 8:30 A.M. To 5:00 P.M.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <!-- bootsrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousell3").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 4  // For small screens
+                    },
+                    600: {
+                        items: 4  // For medium screens
+                    },
+                    1000: {
+                        items: 8  // For large screens
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

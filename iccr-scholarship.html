@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMA Emassay Websites</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- font asm  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <!-- owl slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- mini navbar -->
+ <div>
+        <img src="./assets/image/web-flag-strip-bg.jpg" alt="" width="100%" height="13px">
+    </div>
+
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="">
+                <div class="side-conntent">
+                    <a href="#">Sitemap</a>
+                    <a href="contact-details.html">Contact</a>
+                    <a href="#">Feedback</a>
+                    <a href="">Internet</a>
+                    <a href="">Media Login</a>
+
+                </div>
+            </div>
+
+            <div class="">
+                <div class="side-conntentt d-flex gap-3">
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Skip to main content</a></p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Screen Reader Access</a></p>
+                    <p class="m-0">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 ">
+                             <p class="m-0" onclick="changeTextSize('A-')">A-</p>
+                             <p class="m-0" onclick="changeTextSize('A')">A</p>
+                             <p class="m-0" onclick="changeTextSize('A+')">A+</p>
+                            <p class="m-0 white-cir"></p>
+                            <p class="m-0 black-cir"></p>
+                        </div>
+                    </div>
+                    </p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block">
+                        
+                    </p>
+                    <select name="lang" id="lang"
+                        class="border-0 bg-transparent px-4 d-none d-lg-block d-xl-block d-md-block">
+                        <option value="Eng">Eng</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="navbar-fixed">
+        <div class="container-fluid mt-2">
+            <div class="justify-content-between flex-wrap mt-1  dblock">
+                <div class=" d-none d-md-block d-lg-block d-xl-bloc">
+                    <div class="d-flex gap-3">
+                        <div>
+                            <img src="./assets/image/black-emblem.png" alt="">
+                        </div>
+                        <div class="mt-2">
+                            <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                                <br> <span class="h5">Beirut, Lebanon</span>
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="gap-2  mobile-logo">
+                    <div>
+                        <img src="./assets/image/black-emblem.png" alt="">
+                    </div>
+                    <div class="mt-2">
+                        <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                            <br> <span class="h5">Beirut, Lebanon</span>
+                        </h1>
+                        <div class="mb-3 d-flex justify-content-end">
+                            <a href="#whatnew" class="bg-orang d-block w-50"><i class="fa-solid fa-bell"></i>
+                                What's New</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex gap-4 flex-wrap">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 socail-media-icons mt-3 ">
+                            <a href="https://x.com/indiainlebanon" target="_blank" class="text-dark"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <!-- <i class="fa-brands fa-whatsapp text-success"></i> -->
+                            <a href="https://www.facebook.com/IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-facebook-f text-color"></i></a>
+                            <!-- <i class="fa-brands fa-linkedin-in"></i> -->
+                            <a href="https://www.youtube.com/@IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-youtube text-danger"></i></a>
+                            <!-- <i class="fa-brands fa-flickr"></i> -->
+                            <!-- <i class="fa-brands fa-soundcloud"></i> -->
+                            <a href="https://www.instagram.com/indiainlebanon/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-lg-block d-xl-block d-md-block mt-2">
+                        <form action="" class="border rounded">
+                            <input type="text" name="search" id="search" placeholder="Search" class="border-0 px-3 py-2"
+                                style="width: 180px;">
+                            <button class="btn color-orange"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="mt-2">
+                        <a href="#whatnew" class="bg-orang"><i class="fa-solid fa-bell"></i> What's New</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nabvbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Search..." class="w-50" />
+                        <span class="search">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        </span>
+
+                        <i class="fa-solid fa-x close-icon"></i>
+                    </div>
+
+                    <!-- <a href="#" class="bg-white p-3">RTI</a> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About the Embassy
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="contact-details.html">Contact Details</a></li>
+                                <!-- <li><a class="dropdown-item" href="about-mea.html">About MEA</a></li>
+                                <li><a class="dropdown-item" href="profiles.html">Profiles</a></li> -->
+                                <li><a class="dropdown-item" href="timings-and-holidays.html">Timings & Holidays</a></li>
+                                <!--<li><a class="dropdown-item" href="contact-details.html#Holidays">Holidays</a></li>-->
+                                <li><a class="dropdown-item" href="right-to-infomation.html">Right to Information</a>
+                                </li>
+                                <li><a class="dropdown-item" href="previous-ambassador.html">Previous Ambassadors</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="assets/pdf/Security Audit (VAPT) Clearance Certificate (CNPL24-25100524042).pdf"
+                                        target="_blank">Security Audit (VAPT) Clearance Certificate</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Visa & Consular services
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="visa-service.html">Visa Services</a></li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Passport Services
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small" href="passport-service.html">Passport
+                                                Services</a></li>
+                                        <li><a class="dropdown-item small" href="https://embassy.passportindia.gov.in/"
+                                                target="_blank">Application form for Indian Passport</a></li>
+                                        <li><a class="dropdown-item small" href="non-mrp.html">Phasing out of
+                                                Non-Machine Readable Passports (Non-MRP)</a></li>
+
+                                        <li><a href="pahwip.html" class="dropdown-item small">Public Advisory on Hand
+                                                Written Indian Passport</a></li>
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="consular-service.html">Consular Service</a></li>
+                                <li><a class="dropdown-item" href="oci-card.html">OCI Card Service</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                India & Lebanon
+                            </a>
+                            <ul class="dropdown-menu p-0">
+
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Bilateral Relations
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small"
+                                                href="india-lebanon-relation.html">India-Lebanon Bilateral Relations</a>
+                                        </li>
+                                        <li><a class="dropdown-item small"
+                                                href="scholarship-itec.html">Scholarships/ITEC</a></li>
+
+
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Links to India
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="https://www.indiaperspectives.gov.in//">India
+                                        Perspectives</a></li>
+                                <li><a class="dropdown-item" href="http://india.gov.in/">National Portal of India</a>
+                                </li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.mea.gov.in/">Ministry of
+                                        External Affairs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="archives.html">Archives</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section>
+        <div class="bannerimg">
+            <h1 class="text-color fw-normal">Atal Bihari Vajpeyee General Scholarship Scheme</h1>
+        </div>
+        <p class="px-3 m-0 py-2"><span class="text-color">Home ›</span>  <span>Atal Bihari Vajpeyee General Scholarship Scheme</span></p>
+        <hr class="mt-0">
+    </section>
+
+
+    <section>
+        <div class="container-fluid">
+            <h4 class="text-color">Atal Bihari Vajpeyee General Scholarship Scheme</h4>
+            <h5>Atal Bihari Vajpayee General Scholarship Scheme 2024-25</h5>
+             <p>Indian Council for Cultural Relations (ICCR) Scholarships offered under Atal Bihari Vajpayee General Scholarship Scheme (A1201) [formerly: General Scholarship Scheme(A1201)] for the Academic Year (AY) 2024-25</p>
+             <p>ICCR announced ONE (01) slot for Lebanon out of 613 scholarship slots under Atal Bihari Vajpayee General Scholarship Scheme (A12O1) [formerly: General Scholarship Scheme(A1201)] at Indian Universities / Institutes in the AY 2024-25. Applications are invited directly on ICCR’s A2A Scholarship portal www.a2ascholarships.iccr.gov.in for the process for admissions for the AY 2024-25. Once the student has obtained admission on A2A portal and has got the scholarship, the student is advised to register on “Study In India(SII)”
+             portal (https://studyinindia.gov.in/admission/login) for obtaining Unique ID and further process including obtaining visa and registration with FRRO.</p>
+             
+             <p>The Scholarship Portal www.a2ascholarships.iccr.gov.in will be operational from 04 APRIL, 2024 for foreign students to apply for admission.</p>
+             <p>The last date of submission of applications on Portal by the interested students will be 15 June, 2024.</p>
+             <p>Last date of Universities to inform the decision (if confirmed, intimation to the Embassy. If rejected, intimation to the students) will be 30 JUNE, 2024</p>
+             <p>Last Date for allocating scholarship and generating Offer Letters by Indian Mission abroad- 15 JULY, 2024</p>
+             <p>Last date of acceptance by students- 25 JULY, 2024</p>
+             <p>Based on the number of acceptances in the first round (if acceptanc4es are less than the scholarship 
+             seats allocated) Indian Mission to offer scholarship to other students who were not considered in the first round – 10 AUGUST, 2024</p>
+             <p>Second-round students to convey their acceptance.- 20 AUGUST, 2024</p>
+             
+             <p>Applicants will have the option to apply to 5 Universities / Institutes in the order of their preference of study. The admission, as far as possible, shall be given as per applicant's preference. However, there may be a situation when students do not get admission in their preferred Universities/Institutes due to
+             limited number of seats on offer. Students should therefore be prepared to receive admission from any of their five preferences.</p>
+             
+             <p>GENERAL GUIDELINES FOR ALL INTERNATIONAL STUDENTS</p>
+             
+             <p>Since last AY 2023-24, a 500-word essay in English has been introduced to ascertain English Proficiency. Besides, students can also submit their TOFEL/ IELTS etc.
+             Standardised Test scores, if available. ICCR is also requesting Universities/Institutes to conduct interview of applicants online, if so required.</p>
+         
+          
+          <p>Rejected candidates will be intimated by Universities</p>
+          <p>Interested students are advised to visit university / institute website and do thorough research of courses offered, eligibility criteria and general information about the university / institute before applying for admission</p>
+         <p>The students should ensure that they are eligible for the course and meet the eligibility criteria and should submit relevant documentation as required by the Universities in addition to the basic certificates mentioned in the application form. They should always refer to the Universities Handbook / University Grants Commission's website and the concerned university / institutes's website for eligibility criteria etc. Applicants may need to apply for equivalence certificates from the Association of Indian Universities (AIU) at the link https://evaluation.aiu.ac.in/student/login and bear the fees incurred on obtaining the certificate at own expense (non-reimbursable). For any further details on equivalence certificate, students may contact AIU (+911123230059/23231097/23232305 Ext. 210, 234,252, Email: studentinfo@aiu.ac.in, ds_international@aiu.ac.in, evaluation@aiu.ac.in</p>
+         
+         
+         <p>The scholarship slot include return economy class air-fares to the nearest airport and 03rd AC Train fare to the place of study, if so required.</p>
+         <p>ICCR has introduced disbursement of all scholarship payment to students through PFMS as per Government of India guidelines on direct payment to beneficiaries.</p> 
+           <p>It may be noted that for BE / B. Tech courses, Physics, Chemistry and Mathematics (PCM) are compulsory in 11 and 12 grades of schooling and it is a mandatory requirement for Engineering courses. In Biology-based science subjects, students should have studied Biology, Physics and Chemistry in high school. Mark sheets for each i.e., level 10 and 10+2 level of school be uploaded along with the transcripts in English.</p>
+           <p><b>The application will not be considered without English translation of documents if the original documents are not in English.</b> It may also be noted that incomplete application will be summarily rejected by universities if documents are not in English or English translation is not provided. Students are advised to thoroughly check their applications and attach requisite documents before submission of the application.</p>
+           <p>For admission in Under Graduate (UG) level courses, it is compulsory to have 10+2 i.e. 12 years of schooling.</p>
+           <p>2. Age : Applicants should have attained a minimum age of 18 years at the time of admission in Indian Universities / Institutes and not more than 40 years of age and for Ph.D. Courses 50 years maximum.</p>
+           <p>3. The Council does not arrange admission in Medical/ Paramedical (Nursing / Physiotherapy / Anaesthesia etc.) / Fashion /LAW courses/integrated courses such as BA LLB (5 years)/BSc & MSc (5 years).</p>
+           <p>4. Incidental charges : Please note that for science courses/ the expenditure on laboratory chemicals and other related incidental charges will be borne by the scholars themselves.</p>
+           <p>5. Medical Insurance : Compulsory Personal Medical Insurance is a mandatory requirement for availing of ICCR's scholarship. It is compulsory for all ICCR scholarship students to procure Medical Insurance policy with minimum sum assured for Indian Rupees 5,00,000/- (Indian Rs. Five Lakhs) per annum. Applicants are advised that to ensure, they must have medical insurance coverage on their own either before travel or immediately after reaching India, whatever is convenient to students. Students can purchase medical insurance from any of the insurance companies of their choice. However to facilitate students, the two insurance companies for referral purpose as given below:</p>
+           <p>M/s Raheja QBE General Insurance Company Limited Name of Nodal Officer: Dr. Ketan Gawde</p>
+          <p> Mobile No. :<a href="tel:+91-8419925839">+91-8419925839</a></p>
+          
+          <p> Email:  :<a href="mailto:amit.wakekar@rahejaqbe.com">amit.wakekar@rahejaqbe.com</a></p>
+          <p> Policy buy link:  :<a href="https://www.rahejaqbe.com/health-qube-for-iccr-scholars">https://www.rahejaqbe.com/health-qube-for-iccr-scholars</a></p>
+           <p>M/s Royal Sundaram General Insurance Co. Limited Name of Nodal Officer: Shri Ramesh Gopalakrishnan/Dinakar BysaniMobile No: +919884277886 / +918826265058</p>
+           <p>Email: ramesh.gopalakrishnan@royalsundaram.in / dinakar.bysani@royalsundaram.in Website: https://www.royalsundaram.in</p>
+           <p>Applicants are advised to be aware of the change in medical insurance policy.</p>
+           <p>6. Familiarization with India : It is essential for the applicants to have a realistic assessment of India, and of the living conditions in the country's educational institutions. ICCR may amend some provisions of scholarships from time to time and it is incumbent on students to accept the revised norms.</p>
+           <p>7. Accommodation and Security : ICCR advises students to stay in hostel, if available. However, students are allowed to stay in private accommodation if the concerned institute does not insist on staying in their hostel.</p>
+           <p>8. To automate the entire manual work process of ICCR’s scholarship, “Gyan Setu-connecting Culture through Knowledge” has been launched. Students are directed to report their arrival on the Gyan-Setu web application on an immediate basis. Students are required to coordinate with their respective University/Institute regarding updation of their details such as joining report on the app.</p>
+           <p>9. Submission & Verification of Documents/Confirmation of Admission:- To submit the original documents and verify the details mentioned in the Portal during the admission process with their original documents including Passport, previous degree certificates, country’s unique identification number, in order to confirm the admission of students and get the Hotel Accommodation as soon as the admission is confirmed. Please Note the details entered in the Portal, if in case, does match with the original documents, the admission of the said student be termed as CANCELLED.</p>
+           <p>10. Undertaking: All students departing to India for ICCR Scholarships must submit an undertaking in the given Proforma that they have understood the “Guidelines for International students under ICCR Scholarships”.</p>
+           
+        </div>
+    </section>
+
+   
+   
+
+
+   
+   
+
+  <section>
+        <div class="container-fluid py-3">
+            <div class="row stay-conmnected">
+                <h5 class="text-color">Stay Connected</h5>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="visa-passport-nri-oci-consular-alerts.html">
+                        <img src="./assets/image/visa_passport_nri_oci_consular_alerts.png" alt="" width="100%">
+                    </a>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <div data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./assets/image/queries_feedbak.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="#!">
+                        <img src="./assets/image/24-hours.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="study-in-india.html">
+                        <img src="./assets/image/study in india.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="Consular-grievance.html">
+                        <img src="./assets/image/Consular-grievance.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="scholorship.html">
+                        <img src="./assets/image/scholorship.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="commerical-reprentive.html">
+                        <img src="./assets/image/commerical-reprentive.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://indianvisaonline.gov.in/visa/" target="_blank">
+                        <img src="./assets/image/apply_online_for_visa_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.indiaperspectives.gov.in/en_US/" target="_blank">
+                        <img src="./assets/image/indian_perspectives_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSft8UHK_pZLt8XCGr3LQnHFjVw9WANIhurFpItfRcNmux6jjg/viewform" target="_blank">
+                        <img src="./assets/image/register_embassy.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/Minister.jpg" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/21.jpg" alt="" width="100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Queries/Feedback</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="">
+          <div class="mt-3">
+               <input type="text" id="name" name="name" placeholder="Enter Name" class="w-100 py-2 px-3 border rounded" required>
+          </div>
+          
+          <div class="mt-3">
+               <input type="number" id="number" name="number" placeholder="Enter Phone No." class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+               <input type="email" id="email" name="email" placeholder="Enter Email Id" class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+              <textarea id="w3review" name="w3review" rows="4" cols="5"  class="w-100 py-2 px-3 border rounded text-dark" placeholder="Message">
+              </textarea>
+          </div>
+          
+           <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+       </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+    </section>
+
+
+    <section>
+        <div id="news-slider" class="owl-carousel owl-carousell3 gap-2 mt-5">
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/pg-portal.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/prabhass-small-logo.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/my_gov.jpg" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/india-gov-logo.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/consular-grievance-monitering-system.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/iccr-logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="side-socail-icons">
+        <a href="https://www.facebook.com/IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/facebook-icon.png" alt="" width="30px"></i></a>
+        <a href="https://www.youtube.com/@IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/youtube-icon.png" alt="" width="30px"></a>
+        <!-- <a href="#" class="d-block" target="_blank"><img src="./assets/image/meamob-icon.png" alt="" width="30px"></a> -->
+        <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Etfw" class="d-block" target="_blank"><img src="./assets/image/x-twitter-icon.avif" alt="" width="30px"></a>
+        <a href="https://www.instagram.com/indiainlebanon/" class="d-block" target="_blank"><img src="./assets/image/insta-icon.webp" alt="" width="30px"></a>
+    </div>
+
+
+   <section>
+        <footer class="bg-navy p-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-9 mt-3">
+                        <!--<div class="d-flex gap-3 flex-wrap">-->
+                        <!--    <img src="./assets/image/android-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/ios-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/cqw_logo.png" alt="">-->
+                        <!--</div>-->
+                        <div class="afer-class mt-2">
+                            <a href="terms-and-conditions.html" class="m-0">Terms and Condition</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="copyright-policy.html">Copyright Policy</a>
+                            <a href="hyperlinking-policy.html">Hyperlinking Policy</a>
+                            <!--<a href="#">Accessibility Statement</a>-->
+                            <!--<a href="#">Help</a>-->
+                            <!--<a href="#">E-Citizen</a>-->
+                            <!--<a href="#">Tenders</a>-->
+                        </div>
+
+                        <small class="text-white d-block">Copyright © 2024 Embassy of India , Lebanon ,  Government of India. All Rights Reserved.</small>
+                        <small class="d-block text-white">Website Designed & developed by <a href="https://maxtratechnologies.com/" target="_blank" class="text-decoration-none text-white fw-bold">MAXTRA TECHNOLOGIES PVT.LTD</a></small>
+                    </div>
+
+                    <div class="col-xl-3 mt-3">
+                        <div id="google_translate_element" class="w-100 mb-3"></div>
+                        <p class="m-0 small text-end text-white">Visitors: 215862577 Page last updated on:</p>
+                        <p class="m-0 small text-end text-white">14/10/2024</p>
+                        <p class="m-0 small text-end text-white">Working hours at Embassy of India, Lebanon 8:30 A.M. To 5:00 P.M.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <!-- bootsrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousell3").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 4  // For small screens
+                    },
+                    600: {
+                        items: 4  // For medium screens
+                    },
+                    1000: {
+                        items: 8  // For large screens
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

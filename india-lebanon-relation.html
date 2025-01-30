@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMA Emassay Websites</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- font asm  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <!-- owl slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- mini navbar -->
+ <div>
+        <img src="./assets/image/web-flag-strip-bg.jpg" alt="" width="100%" height="13px">
+    </div>
+
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="">
+                <div class="side-conntent">
+                    <a href="#">Sitemap</a>
+                    <a href="contact-details.html">Contact</a>
+                    <a href="#">Feedback</a>
+                    <a href="">Internet</a>
+                    <a href="">Media Login</a>
+
+                </div>
+            </div>
+
+            <div class="">
+                <div class="side-conntentt d-flex gap-3">
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Skip to main content</a></p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block"><a href="#">Screen Reader Access</a></p>
+                    <p class="m-0">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 ">
+                             <p class="m-0" onclick="changeTextSize('A-')">A-</p>
+                             <p class="m-0" onclick="changeTextSize('A')">A</p>
+                             <p class="m-0" onclick="changeTextSize('A+')">A+</p>
+                            <p class="m-0 white-cir"></p>
+                            <p class="m-0 black-cir"></p>
+                        </div>
+                    </div>
+                    </p>
+                    <p class="m-0 right d-none d-lg-block d-xl-block">
+                        
+                    </p>
+                    <select name="lang" id="lang"
+                        class="border-0 bg-transparent px-4 d-none d-lg-block d-xl-block d-md-block">
+                        <option value="Eng">Eng</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="navbar-fixed">
+        <div class="container-fluid mt-2">
+            <div class="justify-content-between flex-wrap mt-1  dblock">
+                <div class=" d-none d-md-block d-lg-block d-xl-bloc">
+                    <div class="d-flex gap-3">
+                        <div>
+                            <img src="./assets/image/black-emblem.png" alt="">
+                        </div>
+                        <div class="mt-2">
+                            <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                                <br> <span class="h5">Beirut, Lebanon</span>
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="gap-2  mobile-logo">
+                    <div>
+                        <img src="./assets/image/black-emblem.png" alt="">
+                    </div>
+                    <div class="mt-2">
+                        <h1 style="font-size: 20px;"><span class="text-color fw-bold">EMBASSY OF INDIA</span>
+                            <br> <span class="h5">Beirut, Lebanon</span>
+                        </h1>
+                        <div class="mb-3 d-flex justify-content-end">
+                            <a href="#whatnew" class="bg-orang d-block w-50"><i class="fa-solid fa-bell"></i>
+                                What's New</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex gap-4 flex-wrap">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <div class="d-flex gap-3 socail-media-icons mt-3 ">
+                            <a href="https://x.com/indiainlebanon" target="_blank" class="text-dark"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <!-- <i class="fa-brands fa-whatsapp text-success"></i> -->
+                            <a href="https://www.facebook.com/IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-facebook-f text-color"></i></a>
+                            <!-- <i class="fa-brands fa-linkedin-in"></i> -->
+                            <a href="https://www.youtube.com/@IndiaInLebanon" target="_blank"><i
+                                    class="fa-brands fa-youtube text-danger"></i></a>
+                            <!-- <i class="fa-brands fa-flickr"></i> -->
+                            <!-- <i class="fa-brands fa-soundcloud"></i> -->
+                            <a href="https://www.instagram.com/indiainlebanon/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-lg-block d-xl-block d-md-block mt-2">
+                        <form action="" class="border rounded">
+                            <input type="text" name="search" id="search" placeholder="Search" class="border-0 px-3 py-2"
+                                style="width: 180px;">
+                            <button class="btn color-orange"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="mt-2">
+                        <a href="#whatnew" class="bg-orang"><i class="fa-solid fa-bell"></i> What's New</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nabvbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Search..." class="w-50" />
+                        <span class="search">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        </span>
+
+                        <i class="fa-solid fa-x close-icon"></i>
+                    </div>
+
+                    <!-- <a href="#" class="bg-white p-3">RTI</a> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About the Embassy
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="contact-details.html">Contact Details</a></li>
+                                <!-- <li><a class="dropdown-item" href="about-mea.html">About MEA</a></li>
+                                <li><a class="dropdown-item" href="profiles.html">Profiles</a></li> -->
+                                <li><a class="dropdown-item" href="timings-and-holidays.html">Timings & Holidays</a></li>
+                                <!--<li><a class="dropdown-item" href="contact-details.html#Holidays">Holidays</a></li>-->
+                                <li><a class="dropdown-item" href="right-to-infomation.html">Right to Information</a>
+                                </li>
+                                <li><a class="dropdown-item" href="previous-ambassador.html">Previous Ambassadors</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="assets/pdf/Security Audit (VAPT) Clearance Certificate (CNPL24-25100524042).pdf"
+                                        target="_blank">Security Audit (VAPT) Clearance Certificate</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Visa & Consular services
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="visa-service.html">Visa Services</a></li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Passport Services
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small" href="passport-service.html">Passport
+                                                Services</a></li>
+                                        <li><a class="dropdown-item small" href="https://embassy.passportindia.gov.in/"
+                                                target="_blank">Application form for Indian Passport</a></li>
+                                        <li><a class="dropdown-item small" href="non-mrp.html">Phasing out of
+                                                Non-Machine Readable Passports (Non-MRP)</a></li>
+
+                                        <li><a href="pahwip.html" class="dropdown-item small">Public Advisory on Hand
+                                                Written Indian Passport</a></li>
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="consular-service.html">Consular Service</a></li>
+                                <li><a class="dropdown-item" href="oci-card.html">OCI Card Service</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                India & Lebanon
+                            </a>
+                            <ul class="dropdown-menu p-0">
+
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Bilateral Relations
+                                    </a>
+                                    <ul class="dropdown-menu p-0">
+                                        <li><a class="dropdown-item small"
+                                                href="india-lebanon-relation.html">India-Lebanon Bilateral Relations</a>
+                                        </li>
+                                        <li><a class="dropdown-item small"
+                                                href="scholarship-itec.html">Scholarships/ITEC</a></li>
+
+
+
+                                        <!-- <li class="nav-item dropend">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu d-none">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li class="nav-item dropend">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Links to India
+                            </a>
+                            <ul class="dropdown-menu p-0">
+                                <li><a class="dropdown-item" href="https://www.indiaperspectives.gov.in//">India
+                                        Perspectives</a></li>
+                                <li><a class="dropdown-item" href="http://india.gov.in/">National Portal of India</a>
+                                </li>
+                                <li><a class="dropdown-item" target="_blank" href="https://www.mea.gov.in/">Ministry of
+                                        External Affairs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="archives.html">Archives</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <section>
+        <div class="bannerimg">
+            <h1 class="text-color fw-normal">India-Lebanon Bilateral Relations</h1>
+        </div>
+        <p class="px-3 m-0 py-2"><span class="text-color">Home ›</span> Bilateral Relations › <span class="text-color">India-Lebanon Bilateral Relations</span></p>
+        <hr class="mt-0">
+    </section>
+
+
+    <section>
+        <div class="container-fluid">
+            <h4 class="text-color">India-Lebanon Bilateral Relations</h4>
+
+            <p>India and Lebanon have historically enjoyed close and friendly relations. India established diplomatic relations with Lebanon in 1954. Shared commonalities include, besides cultural similarities, a democratic, parliamentary system of government based on a written constitution, basic freedoms and human rights; a market economy moving towards greater liberalization; a large pool of educated English-speaking professionals and entrepreneurs; and a vibrant global diaspora.</p>
+
+            <p>The fact that India kept its Embassy in Beirut open and functioning throughout the civil war from 1975 to 1990 in contrast to the Embassies of a large number of other countries, is greatly appreciated by the Lebanese, together with India’s traditionally strong linkages with the Arab world and our steadfast support for the Palestine cause. Both countries have also cooperated closely on various issues of mutual interest during their overlap in 2010 as non-permanent members of the UN Security Council.</p>
+
+
+            <p class="fw-bold">Indian Community:</p>
+
+            <p>There are nearly 4000 Indian nationals in Lebanon, with a majority of them employed as workers in companies, construction sector, agricultural farms, etc. The Embassy attaches highest priority to reaching out to the Indian community in an earnest, active, helpful and broad-based manner, and in ensuring their well being and welfare. In light of Covid-19 pandemic and the travel restrictions, the Embassy facilitated three special community charter flights under Vande Bharat Mission for repatriating Indian nationals between June-August 2020.</p>
+
+            <p class="fw-bold">Indian Battalion [INDBATT] in UNIFIL:</p>
+
+            <p>Indian Army personnel (INDBATT) have been deployed in the United Nations Interim Force in Lebanon (UNIFIL) since November, 1998. The INDBATT contingent currently consists of 900 personnel, but for the first time, Kazakh troops are serving under the command of the Indian Battalion. With their utmost professionalism, INDBATT personnel are highly regarded for their sincere outreach to the local community and they have been able to win hearts and minds of the local community. Number of projects have been undertaken by the battalion in southern Lebanon.</p>
+
+            <p>Upon transfer of authority, 18 Mahar Infantry Battalion Group passed on the Baton of the Indian Battalion UNIFIL to 9 Kumaon Infantry Battalion Group, Col. B.S. Gusain on 24 April, 2023.   </p>
+
+            <p class="fw-bold">Visits</p>
+
+            <p class="fw-bold">From India to Lebanon:</p>
+            <p>(i) Pandit Jawaharlal Nehru, during his tenure as Prime Minister of India visited Lebanon in 1956 and 1960.</p>
+
+            <p>(ii) Shri Nareshwar Dayal, Secretary (East) visited Lebanon from 15-17 July, 1998 for Foreign Office consultations. He was received by Prime Minister Mr Rafik Al-Hariri and Foreign Minister Mr Fares Bouez.</p>
+
+            <p>(iii) Shri MM Pallam Raju, Minister of State for Defence paid a 3-day visit to Lebanon to meet Indian Soldiers deployed at UNIFIL in South Lebanon.</p>
+            <p>(iv) Mr. E. Ahamed, Hon’ble Minister of State for External Affairs visited Lebanon in 2013.</p>
+            <p>(v) Mr. Anil Wadhwa, Secretary (East) visited Lebanon from 27-30 March, 2014.</p>
+            <p>(vi) Mr. M.J. Akbar, Hon’ble Minister of State for External Affairs, visited Beirut in August, 2016 and had wide ranging discussions with the Lebanese side.</p>
+            <p>(vii) Mr. Amar Sinha, then Secretary (Economic Relations), Ministry of External Affairs visited Lebanon in May, 2017</p>
+            <p>(viii) Mr. T.S. Tirumurthi, Secretary (ER), Ministry of External Affairs visited Lebanon in May 2019 and held wide raging consultations.</p>
+            <p>(ix) Dr. Pradeep Rajpurohit, JS(WANA), Ministry of External Affair visited Beirut on 13-16 June 2022 for Meeting of UNRWA.</p>
+            <p>(x) Dr. Ausaf Sayeed, Secretary (CPV&OIA) and Dr. Pradeep Rajpurohit, JS(WANA) visited Lebanon from 01-04 October 2022.</p>
+
+
+            <p class="fw-bold">From Lebanon to India:</p>
+            <p>(i) Foreign Minister Mr. Fairz Boueiz visited India in 1997 for NAM Conference in New Delhi.</p>
+
+            <p>(ii) Agriculture Minister Mr. Akram Chehayeb visited Delhi in February 2015 at the invitation of his counterpart and also inaugurated the Lebanese Pavilion at the Surajkund Mela where Lebanon was the Partner Country. Mr. Akram Chehayeb met Union Agriculture Minister Shri Radha Mohan Singh in New Delhi ON 6 February 2015</p>
+
+            <p>(iii) Former Prime Minister of Lebanon, Mr. Fouad Siniora participated in West Asia Conference organized by IDSA in February 2020 and also had a meeting with External Affairs Minister Dr. S. Jaishankar.</p>
+            <p>(iv)  Director General of the Ministry of Agriculture, Mr. Louis Lahoud visited New Delhi from May 31 to June 4, 2022 to attend meeting of African Asian Rural Development Organization (AARDO).</p>
+
+            <p class="fw-bold">MOUs/Agreements</p>
+            <p class="m-0 small">The MOUs/Agreements with Lebanon are as follows:</p>
+            <p class="m-0 small">(i) Air Service Agreement (Signed in 13 March 1958)</p>
+            <p class="m-0 small">(ii) Air Service Agreement (Signed in 19 September 1964)</p>
+            <p class="m-0 small">(iii) Avoidance of Double Taxation of Income of Enterprises Operating Aircraft (Signed in 22 February 1968)</p>
+            <p class="m-0 small">(iv) Cultural Exchange Agreement (signed in 7 April 1997, ratified in February 2000, which is automatically renewed every 5 years).</p>
+            <p class="m-0 small">(v) MoU for an Educational Exchange Programme (signed in 30 June 2013, valid for 5 years, to be automatically renewed every 5 years).</p>
+            <p class="m-0 small">(vi) MoU on student exchange programme between Delhi University and Lebanese University (Signed on 4th March 2021)</p>
+
+            <p class="fw-bold mt-3">India’s Humanitarian Assistance:</p>
+            <p class="m-0 small">(i) India provided $ 1 million ($500,000 in 2014 to Lebanon Humanitarian Fund and $500,000 in 2016 to Lebanon Response Fund) as part of India’s commitments made at the Pledging Conferences on Syria held in Kuwait in 2014 and 2015.</p>
+
+            <p class="m-0 small">(ii) In the aftermath of tragic explosions of August 4, 2020 at Beirut Port, Government of India provided 58 MT of medical, food and relief supplies to Lebanon on August 14, 2020.</p>
+
+            <p class="m-0 small">(iii) On 22 December, 2020, Government of India made a donation of office equipment to the Lebanese Ministry of Foreign Affairs.</p>
+
+            <p class="m-0 small">(iv) Government of India donated 05 motorbikes each to Ministry of Foreign Affairs and Beirut Governorate during the visit of Dr. Ausaf Sayeed, Secretary (CPV&OIA) from 1-4 October 2022.</p>
+
+            <p class="m-0 small">(v) Government of India donated a 45KVA generator set to the Ministry of Foreign Affairs of Lebanon in December 2022.</p>
+
+            <p class="m-0 small">(vi) The Jaipur Foot Artificial Limb Fitment camp was held from 26 January to 15 February 2023 at the Rafik Hariri University Hospital, Beirut during which 322 artificial limbs were provided and fitted to 294 handicapped persons.</p>
+
+
+            <p class="fw-bold mt-3 mb-0">Quick Impact Projects:</p>
+            <p class="m-0">In the past few years the following QIPs have taken place:</p>
+
+            <div class="overflow mt-3">
+                <table class="table table-bordered table-striped">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p><strong>QIP’s No.</strong></p>
+                        </td>
+                        <td>
+                          <p><strong>Project Name</strong></p>
+                        </td>
+                        <td>
+                          <p><strong>Implementing Agency</strong></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>1/2019-20</p>
+                        </td>
+                        <td>
+                          <p>
+                            Provision of Generator set at&nbsp;&nbsp; Burghuz village in South of
+                            Lebanon.
+                          </p>
+                        </td>
+                        <td>
+                          <p>Indian battalion at UNIFIL in association with local municipality</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>2/2019-20</p>
+                        </td>
+                        <td>
+                          <p>
+                            Upgradation of Sardar Patel Complex for sports and Culture at Kawkaba
+                            village in South Lebanon.
+                          </p>
+                        </td>
+                        <td>
+                          <p>-do-</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>3/2019-20</p>
+                        </td>
+                        <td>
+                          <p>
+                            Renovation of Mahatma Gandhi Park at Eblel Saqi municipality in South
+                            Lebenon.
+                          </p>
+                        </td>
+                        <td>
+                          <p>-do-</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>1/2020-21</p>
+                        </td>
+                        <td>
+                          <p>
+                            Provision of Hanger for New Garbage Dump &amp; Garbage Pressing
+                            Machine at the Kafar Chouba Village, South Lebanon.
+                          </p>
+                        </td>
+                        <td>
+                          <p>-do-</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>2/2020-21</p>
+                        </td>
+                        <td>
+                          <p>
+                            “Construction of Furnishing of Red Cross Building in Chebaa
+                            Village, South Lebenon.
+                          </p>
+                        </td>
+                        <td>
+                          <p>-do-</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>1/2021-22</p>
+                        </td>
+                        <td>
+                          <p>
+                            Construction and Furnishing of Reception Cabin at the Mrusti al Shouf
+                            entrance of the Shouf Biosphere Reserve (SBR)
+                          </p>
+                        </td>
+                        <td>
+                          <p>Shouf Biosphere Reserve (SBR)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>2/2021-22</p>
+                        </td>
+                        <td>
+                          <p>
+                            Supporting the reforestation of one hectare area within the SBR with
+                            planting of 800 small seedlings (one year old)
+                          </p>
+                        </td>
+                        <td>
+                          <p>Shouf Biosphere Reserve (SBR)</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            <p class="fw-bold mt-3">ITEC</p>
+            <p>The Indian Technical & Economic Cooperation [ITEC] programme has been popular in Lebanon since its inception in 1964. India offers 75 slots to Lebanon for various training programmes under ITEC. Defence ITEC Slots are also offered to the Lebanese side every year. On 20 September 2023, the Embassy of India, Beirut organised ITEC Day which was attended by Minister of Energy H.E. Mr. Walid Fayad, Minister of Economy and Trade H.E. Mr. Amin Salam, Minister of Education H.E. Judge Dr. Abbas El Halabi and ITEC Alumni.</p>
+
+            <p class="fw-bold">Economic and Commercial Relations:</p>
+            <p>Total volume of trade between India and Lebanon during financial year 2022-23 was $ 595 million with Indian exports to Lebanon at $ 403 million and Indian imports from Lebanon at $92 million.Main exports from India are Chemicals, Pearls, precious stones and metals, machinery, textile articles, plastic, etc., and imports from Lebanon are base metals and articles thereof, miscellaneous manufactured articles, etc. There is considerable potential of expanding trade and investment between the two countries. Mission has undertaken more than 15 Business events during last financial year.</p>
+
+            <p>Some Lebanese companies like M/s Khatib and Alamy, Future Pipes and Dar Al Handasah have businesses in India. An Indian company OEG has been operating two power plats in Lebanon in association with its partners. A.N. Boukhather SAL (ANB Holdings) has set up a plant to assemble 2 wheelers, adding local design features to market it in Lebanon. Recently, an investor from Lebanon (Al Nabeel Foods) has shown interest to set up a humus making factory in India. A Lebanese company, Benta Pharma has established its entire production line based on Indian machinery. Recently, Choueiry Group has signed a contract with Hinduja Group for bring Ashok Leyland Trucks to Lebanon.</p>
+
+            <p>The Embassy has organised a number of business seminars and meetings and also reached out to all regional trade chambers to continue our engagement. Moreover, tourism seminars were also organised focussing on the States of Karnataka, Uttar Pradesh, Rajasthan, Kerala, Goa and Madhya Pradesh. The Embassy is working closely with the Lebenese Ministry of Economy and Trade and Indian Trade Chambers. Mission also facilitated a number of business delegation to participate in the Exhibition in India. On 30 August 2023, the Mission organised a Seminar to mark the International Year of Millets. The Seminar was attended by Lebanese Minister of Industry HE Mr. George Bouchikian, HE Mr. Ali Osseiran, Member of Parliament and President of Lebanese Indian Parliamentary Friendship Committee, HE Mr. Tony Frangieh, Member of Parliament, Ms. Nora Ourabh Haddad, Representative of Food and Agriculture Organization (FAO) in Lebanon and HE Mr. Ghassan Abdel Khalek, Director of Economic Affairs at Ministry of Foreign Affairs. Presidents of  Chamber of Commerce, Director Generals from different ministries, top businessmen, and journalists were among the attendees.</p>
+
+            <p class="fw-bold">Culture</p>
+            <p>The Lebanese people have traditionally admired Indian music, films, cuisine, etc. An increasing number of them are also interested in Yoga – there has been a large and enthusiastic participation in the public events organized by the Mission to celebrate the IDY since 2015.Since 2016, ICCR has deputed a dance teacher who has trained many Lebanese youth in Indian dances and organized various events and dance workshops. The Dance and Yoga classes are organised 6 days in a week at the Embassy premises. Various cultural activities organized by the Mission in cooperation with universities and other local partners are extremely popular.</p>
+
+            <p>Commemorating the celebration of 150th Birth Anniversary of Mahatma Gandhi, ‘Liban Post’, the Department of posts of Lebanon issued a stamp on Mahatma Gandhi which was formally released by the Embassy on 1 October 2019. On this occasion, renowned Lebanese singer Abeer Nehmerendered ‘Vaishnav Jan To’ to celebrate Gandhi Jayanti.</p>
+
+            <p>Chandigarh University Giddha Team visited Lebanon and performed in Saida, UNIFIL HQ and Beirut from 14-17 August 2022.</p>
+
+            <p class="fw-bold">Lebanese-Indian Friendship Fora:</p>
+            <p>The Embassy works closely with several local organizations, most notably Lebanese-Indian Friendship Parliamentary Committee [LIFPC], headed by a senior Parliamentarian H.E. Mr. Ali Osseiran and the Association for Development of Lebanese-Indian Relations [ADLIR], in further strengthening people-to-people contacts and cooperation in diverse sectors.</p>
+
+            <p class="fw-bold">Updated in October 2023</p>
+        </div>
+    </section>
+   
+
+
+   
+   
+
+  <section>
+        <div class="container-fluid py-3">
+            <div class="row stay-conmnected">
+                <h5 class="text-color">Stay Connected</h5>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="visa-passport-nri-oci-consular-alerts.html">
+                        <img src="./assets/image/visa_passport_nri_oci_consular_alerts.png" alt="" width="100%">
+                    </a>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <div data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./assets/image/queries_feedbak.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="#!">
+                        <img src="./assets/image/24-hours.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="study-in-india.html">
+                        <img src="./assets/image/study in india.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="Consular-grievance.html">
+                        <img src="./assets/image/Consular-grievance.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="scholorship.html">
+                        <img src="./assets/image/scholorship.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="commerical-reprentive.html">
+                        <img src="./assets/image/commerical-reprentive.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://indianvisaonline.gov.in/visa/" target="_blank">
+                        <img src="./assets/image/apply_online_for_visa_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.indiaperspectives.gov.in/en_US/" target="_blank">
+                        <img src="./assets/image/indian_perspectives_1.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSft8UHK_pZLt8XCGr3LQnHFjVw9WANIhurFpItfRcNmux6jjg/viewform" target="_blank">
+                        <img src="./assets/image/register_embassy.png" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/Minister.jpg" alt="" width="100%">
+                    </a>
+                </div>
+
+                <div class="col-xl-2 mt-3 col-lg-2 col-md-4 col-sm-3 col-6 ">
+                    <a href="https://www.mea.gov.in/error.htm" target="_blank">
+                        <img src="./assets/image/21.jpg" alt="" width="100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Queries/Feedback</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="">
+          <div class="mt-3">
+               <input type="text" id="name" name="name" placeholder="Enter Name" class="w-100 py-2 px-3 border rounded" required>
+          </div>
+          
+          <div class="mt-3">
+               <input type="number" id="number" name="number" placeholder="Enter Phone No." class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+               <input type="email" id="email" name="email" placeholder="Enter Email Id" class="w-100 py-2 px-3 border rounded">
+          </div>
+          
+          <div class="mt-3">
+              <textarea id="w3review" name="w3review" rows="4" cols="5"  class="w-100 py-2 px-3 border rounded text-dark" placeholder="Message">
+              </textarea>
+          </div>
+          
+           <div class="modal-footer">
+        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+       </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+    </section>
+
+
+    <section>
+        <div id="news-slider" class="owl-carousel owl-carousell3 gap-2 mt-5">
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/pg-portal.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/prabhass-small-logo.png" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/my_gov.jpg" alt="">
+            </div>
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/india-gov-logo.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/consular-grievance-monitering-system.jpg" alt="">
+            </div>
+
+            <div class="post-slide p-3 shadow  h-100 logo-img">
+                <img src="./assets/image/iccr-logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="side-socail-icons">
+        <a href="https://www.facebook.com/IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/facebook-icon.png" alt="" width="30px"></i></a>
+        <a href="https://www.youtube.com/@IndiaInLebanon" class="d-block" target="_blank"><img src="./assets/image/youtube-icon.png" alt="" width="30px"></a>
+        <!-- <a href="#" class="d-block" target="_blank"><img src="./assets/image/meamob-icon.png" alt="" width="30px"></a> -->
+        <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Etfw" class="d-block" target="_blank"><img src="./assets/image/x-twitter-icon.avif" alt="" width="30px"></a>
+        <a href="https://www.instagram.com/indiainlebanon/" class="d-block" target="_blank"><img src="./assets/image/insta-icon.webp" alt="" width="30px"></a>
+    </div>
+
+
+    <section>
+        <footer class="bg-navy p-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-9 mt-3">
+                        <!--<div class="d-flex gap-3 flex-wrap">-->
+                        <!--    <img src="./assets/image/android-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/ios-icon.png" alt="">-->
+                        <!--    <img src="./assets/image/cqw_logo.png" alt="">-->
+                        <!--</div>-->
+                        <div class="afer-class mt-2">
+                            <a href="terms-and-conditions.html" class="m-0">Terms and Condition</a>
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <a href="copyright-policy.html">Copyright Policy</a>
+                            <a href="hyperlinking-policy.html">Hyperlinking Policy</a>
+                            <!--<a href="#">Accessibility Statement</a>-->
+                            <!--<a href="#">Help</a>-->
+                            <!--<a href="#">E-Citizen</a>-->
+                            <!--<a href="#">Tenders</a>-->
+                        </div>
+
+                        <small class="text-white d-block">Copyright © 2024 Embassy of India , Lebanon ,  Government of India. All Rights Reserved.</small>
+                        <small class="d-block text-white">Website Designed & developed by <a href="https://maxtratechnologies.com/" target="_blank" class="text-decoration-none text-white fw-bold">MAXTRA TECHNOLOGIES PVT.LTD</a></small>
+                    </div>
+
+                    <div class="col-xl-3 mt-3">
+                        <div id="google_translate_element" class="w-100 mb-3"></div>
+                        <p class="m-0 small text-end text-white">Visitors: 215862577 Page last updated on:</p>
+                        <p class="m-0 small text-end text-white">14/10/2024</p>
+                        <p class="m-0 small text-end text-white">Working hours at Embassy of India, Lebanon 8:30 A.M. To 5:00 P.M.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <!-- bootsrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script js -->
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousell3").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                nav: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 4  // For small screens
+                    },
+                    600: {
+                        items: 4  // For medium screens
+                    },
+                    1000: {
+                        items: 8  // For large screens
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
